@@ -71,7 +71,6 @@ class PairwiseDistances:
                     "vocab": self.vocab,
                     "vocab_indices": self.vocab_indices,
                     "mean_distances": self.mean_distances.tolist(),
-                    # "pairwise_distances": self.pairwise_distances.tolist(),
                 },
                 f,
             )
@@ -83,4 +82,3 @@ class PairwiseDistances:
         self.vocab = loaded["vocab"]
         self.vocab_indices = loaded["vocab_indices"]
         self.mean_distances = loaded["mean_distances"]
-        # self.pairwise_distances = np.array(loaded["pairwise_distances"])
