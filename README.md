@@ -1,4 +1,9 @@
-# PairwiseDistances
+# Pairwise Distance
+
+Leslie Huang
+lesliehuang@nyu.edu
+
+This module implements the pairwise cosine distance (aka word dissimilarity) measure for the "stylest with embeddings" chapter of my dissertation.
 
 Install using
 
